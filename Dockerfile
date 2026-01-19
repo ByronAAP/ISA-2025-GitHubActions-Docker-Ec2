@@ -1,5 +1,5 @@
 FROM alpine:3.8
-RUN makdir /var/flaskapp
+RUN mkdir /var/flaskapp
 WORKDIR /var/flaskapp
 COPY . .
 RUN apk update
